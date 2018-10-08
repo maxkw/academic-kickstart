@@ -1,7 +1,7 @@
 +++
 title = "Non-parametric Bayesian Inference of Strategies in Repeated Games"
 date = "2018-01-01"
-authors = ["M. Kleiman-Weiner","J. B Tenenbaum","P. Zhou"]
+authors = ["M. Kleiman-Weiner","J. B. Tenenbaum","P. Zhou"]
 publication_types = ["2"]
 publication = "_The Econometrics Journal_"
 publication_short = ""

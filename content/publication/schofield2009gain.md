@@ -1,7 +1,7 @@
 +++
 title = "A gain in GABAA receptor synaptic strength in thalamus reduces oscillatory activity and absence seizures"
 date = "2009-01-01"
-authors = ["C. M Schofield","M. Kleiman-Weiner","U. Rudolph","J. R Huguenard"]
+authors = ["C. M. Schofield","M. Kleiman-Weiner","U. Rudolph","J. R. Huguenard"]
 publication_types = ["2"]
 publication = "_Proceedings of the National Academy of Sciences_"
 publication_short = ""

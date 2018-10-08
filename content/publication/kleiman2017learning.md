@@ -1,7 +1,7 @@
 +++
 title = "Learning a commonsense moral theory"
 date = "2017-01-01"
-authors = ["M. Kleiman-Weiner","R. Saxe","J. B Tenenbaum"]
+authors = ["M. Kleiman-Weiner","R. Saxe","J. B. Tenenbaum"]
 publication_types = ["2"]
 publication = "_Cognition_"
 publication_short = ""

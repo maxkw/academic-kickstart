@@ -1,7 +1,7 @@
 +++
 title = "Synergistic roles of GABAA receptors and SK channels in regulating thalamocortical oscillations"
 date = "2009-01-01"
-authors = ["M. Kleiman-Weiner","M. P Beenhakker","W. A Segal","J. R Huguenard"]
+authors = ["M. Kleiman-Weiner","M. P. Beenhakker","W. A. Segal","J. R. Huguenard"]
 publication_types = ["2"]
 publication = "_Journal of Neurophysiology_"
 publication_short = ""

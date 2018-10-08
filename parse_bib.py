@@ -123,12 +123,24 @@ if __name__ == "__main__":
                     the_file.write('authors = [')
                     authors_str = ''
                     for author in authors:
+                        # if 'Frank' in author:
+                            # import pdb; pdb.set_trace()
                         author_strip = supetrim(author)
                         author_split = author_strip.split(',')
                         if len(author_split)==2:
                             author_strip = author_split[1].strip() + ' ' +author_split[0].strip()
                         author_split = author_strip.split(' ')
-                        author_strip = author_split[0][0]+'. '+' '.join(map(str, author_split[1:]))
+                        
+                        if len(author_split) > 3:
+                            print('WARNING: Long Author? in ' + entry['ID'])
+                            author_strip = author_split[0][0]+'.'+' '.join(map(str, author_split[1:]))
+                        elif len(author_split) == 3:
+                            author_strip = (author_split[0][0]+'. '
+                                            +author_split[1][0]+'. '
+                                            +author_split[2])
+                        else:
+                            author_strip = author_split[0][0]+'. '+' '.join(map(str, author_split[1:]))
+                             
                         authors_str = authors_str+ '"'+author_strip+'",'
                     the_file.write(authors_str[:-1]+']\n')
                 

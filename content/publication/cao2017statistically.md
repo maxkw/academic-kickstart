@@ -1,7 +1,7 @@
 +++
 title = "Statistically inaccurate and morally unfair judgements via base rate intrusion"
 date = "2017-01-01"
-authors = ["J. Cao","M. Kleiman-Weiner","M. R Banaji"]
+authors = ["J. Cao","M. Kleiman-Weiner","M. R. Banaji"]
 publication_types = ["2"]
 publication = "_Nature Human Behaviour_"
 publication_short = ""

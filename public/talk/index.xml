@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Max Kleiman-Weiner</title>
-    <link>/talk/</link>
+    <link>http://www.mit.edu/~maxkw/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Max Kleiman-Weiner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.mit.edu/~maxkw/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

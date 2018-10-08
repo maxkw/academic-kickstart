@@ -1,7 +1,7 @@
 +++
 title = "Towards Formal Definitions of Blameworthiness, Intention, and Moral Responsibility"
 date = "2018-01-01"
-authors = ["J. Y Halpern","M. Kleiman-Weiner"]
+authors = ["J. Y. Halpern","M. Kleiman-Weiner"]
 publication_types = ["1"]
 publication = "_Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18)_"
 publication_short = ""

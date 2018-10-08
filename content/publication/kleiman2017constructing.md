@@ -1,7 +1,7 @@
 +++
 title = "Constructing Social Preferences From Anticipated Judgments: When Impartial Inequity is Fair and Why?"
 date = "2017-01-01"
-authors = ["M. Kleiman-Weiner","A. Shaw","J. B Tenenbaum"]
+authors = ["M. Kleiman-Weiner","A. Shaw","J. B. Tenenbaum"]
 publication_types = ["1"]
 publication = "_Proceedings of the 39th Annual Conference of the Cognitive Science Society_"
 publication_short = ""
