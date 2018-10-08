@@ -1,0 +1,20 @@
+#profile .portrait-title h2 {
+    font-size: 1.6em ;
+} 
+
+footer {
+    display: none ;
+}
+
+.pub-icon {
+    display: none ;
+} 
+
+/* .section-heading h1 {
+   font-size: 2rem;
+   } */
+
+.home-section {
+    /*     padding: 110px 0 110px 0 ; */
+    padding: 2em 0 2em 0 ;
+}
