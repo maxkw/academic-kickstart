@@ -13,6 +13,8 @@ import bibtexparser
 from bibtexparser.bwriter import BibTexWriter
 from bibtexparser.bibdatabase import BibDatabase
 import os, sys, getopt
+from pathlib import Path
+
 
 def RepresentsInt(s):
     try:
@@ -50,9 +52,10 @@ SELECTED = [
     'kleiman2016coordinate',
     'kleiman2017learning',
     'kleiman2017constructing',
-    'kleiman2015inference'
+    'kleiman2015inference',
+    'shum2019theory'
 ]
-    
+
 def main(argv):
     inputfile = ''
     try:
@@ -93,13 +96,16 @@ if __name__ == "__main__":
     
     bib_database = bibtexparser.loads(bibtex_str)
     for entry in bib_database.entries:
-        filenm='content/publication/'+entry['ID']+'.md'
+        pathnm = 'content/publication/'+entry['ID']
+        filenm= pathnm +'/'+entry['ID']+'.md'
         
         # If the same publication exists, then skip the creation. I customize the .md files later, so I don't want them overwritten. Only new publications are created.
         OVERWRITE = True
         if os.path.isfile(filenm) and OVERWRITE == False:
             pass
         else:
+            p = Path(pathnm)
+            p.mkdir(parents=True, exist_ok=True)
             with open(filenm, 'w', encoding="utf8") as the_file:
                 the_file.write('+++\n')
                 the_file.write('title = "'+supetrim(entry['title'])+'"\n')
@@ -125,6 +131,7 @@ if __name__ == "__main__":
                     for author in authors:
                         # if 'Frank' in author:
                             # import pdb; pdb.set_trace()
+                        
                         author_strip = supetrim(author)
                         author_split = author_strip.split(',')
                         if len(author_split)==2:
@@ -140,7 +147,15 @@ if __name__ == "__main__":
                                             +author_split[2])
                         else:
                             author_strip = author_split[0][0]+'. '+' '.join(map(str, author_split[1:]))
-                             
+
+                        if entry['ID'] == "shum2019theory":
+                            if author_strip in ('M. Kleiman-Weiner', "M. Shum"):
+                                author_strip += '&ast;'
+
+                        if 'M. Kleiman-Weiner' in author_strip:
+                            author_strip = '<b>'+ author_strip + '</b>'
+
+                            
                         authors_str = authors_str+ '"'+author_strip+'",'
                     the_file.write(authors_str[:-1]+']\n')
                 

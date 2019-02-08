@@ -37,14 +37,8 @@ defaultContentLanguageInSubdir = false
 enableGitInfo = false
 
 [outputs]
-  home = [ "HTML", "CSS", "RSS", "search" ]
+  home = [ "HTML", "CSS", "RSS", "JSON" ]
   section = [ "HTML", "RSS" ]
-
-[outputFormats.search]
-  baseName = "search"
-  isPlainText = true
-  mediaType = "application/json"
-  notAlternative = true
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
@@ -52,15 +46,11 @@ enableGitInfo = false
   hrefTargetBlank = true  # `true` opens external links in a new tab.
   fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
   smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
+  extensions = ["backslashLineBreak"]
 
 [params]
-  # Color theme.
-  #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "default"
+  # AUTHOR SETUP
 
-  # Font style.
-  #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
 
   # Your details.
   name = "Max Kleiman-Weiner"
@@ -110,6 +100,19 @@ enableGitInfo = false
   latitude = "37.4275"
   longitude = "-122.1697"
   zoom = 15
+
+  # SITE SETUP
+
+
+  # Color theme.
+  #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
+  color_theme = "default"
+  # Enable users to switch between day and night mode?
+  day_night = false
+
+  # Font style.
+  #   Choose from `default`, `classic`, or `playfair`.
+  font = "default"
 
   # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -232,7 +235,7 @@ enableGitInfo = false
 
   [[params.social]]
     icon = "envelope"
-    icon_pack = "fa"
+    icon_pack = "fas"
     link = "mailto:maxkleimanweiner@fas.harvard.edu"
 
   [[params.social]]

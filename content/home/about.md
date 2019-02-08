@@ -2,35 +2,11 @@
 # About/Biography widget.
 widget = "about"
 active = true
+author = "Admin"
 date = 2016-04-20T00:00:00
 
 # Order that this section will appear in.
 weight = 5
-
-# List your academic interests.
-# [interests]
-#   interests = [
-#     "Artificial Intelligence",
-#     "Computational Linguistics",
-#     "Information Retrieval"
-#   ]
-
-# List your qualifications (such as academic degrees).
-# [[education.courses]]
-#   course = "PhD in Artificial Intelligence"
-#   institution = "Stanford University"
-#   year = 2012
-
-# [[education.courses]]
-#   course = "MEng in Artificial Intelligence"
-#   institution = "Massachusetts Institute of Technology"
-#   year = 2009
-
-# [[education.courses]]
-#   course = "BSc in Artificial Intelligence"
-#   institution = "Massachusetts Institute of Technology"
-#   year = 2008
- 
 +++
 
 I am a [Harvard Data Science](https://datascience.harvard.edu/) and [CRCS](https://crcs.seas.harvard.edu/) Postdoctoral Fellow at Harvard & MIT. My interests span the study of intelligence (natural), intelligence (artificial), and intelligence (moral). My goal is to understand how the human mind works with enough precision that it can be implemented on a computer. I also draw on insights from how people learn and think to engineer smarter and more human-like algorithms for artificial intelligence. 
@@ -58,4 +34,3 @@ If you would like to get involved in research on these topics, please email me w
 <!-- What are the _evolutionary_ origins (biological or cultural) of our moral and social knowledge and how do these evolved structures enable distinctively human cooperation? How is this knowledge rapidly learned with high fidelity during _development_, accumulating over generations? Finally, how is social and moral knowledge created and flexibly generalized and deployed _in the moment_, across an infinitude of possible situations and people?  -->
 <!-- I use this framework to probe cognitive questions across three time-scales: evolutionary, developmental, and in the moment. First, I investigate the evolutionary origins of the cognitive structures that enable cooperation and support social learning. I then describe how these structures are used to learn social and moral knowledge rapidly during development, leading to the accumulation of knowledge over generations. Finally I show how this knowledge is used and generalized in the moment, across an infinitude of possible situations. -->
 <!-- This framework is applied to a variety of cognitively challenging social inferences: determining the intentions of others, distinguishing who is friend or foe, and inferring the reputation of others all from just a single observation of behavior. It also answers how these inferences enable fair and reciprocal cooperation, the computation of moral permissibility, and moral learning. This framework predicts and explains human judgment and behavior measured in large-scale multi-person experiments.  -->
-
