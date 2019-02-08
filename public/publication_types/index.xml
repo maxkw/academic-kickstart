@@ -6,9 +6,28 @@
     <description>Recent content in Publication_types on Max Kleiman-Weiner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.mit.edu/~maxkw/publication_types/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1</title>
+      <link>http://www.mit.edu/~maxkw/publication_types/1/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mit.edu/~maxkw/publication_types/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>http://www.mit.edu/~maxkw/publication_types/2/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mit.edu/~maxkw/publication_types/2/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
